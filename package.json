@@ -1,0 +1,15 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "cc1ph3r's portfolio",
+  "main": "index.js",
+  "scripts": {
+    "dev": "live-server --host=192.168.100.8 --port=5500 & npx @tailwindcss/cli -i ./assets/css/input.css -o ./assets/css/output.css --watch"
+  },
+  "author": "CC1PH3R",
+  "license": "ISC",
+  "dependencies": {
+    "@tailwindcss/cli": "^4.1.7",
+    "tailwindcss": "^4.1.7"
+  }
+}
